@@ -1,0 +1,14 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span6 offset3">
+      <h3>There was some error while processing the HMM file:</h3>
+      <p>Please check the format of your file.</p>
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="span6 offset3">
+    [% INCLUDE components/logo_form.tt %]
+    </div>
+  </div>
+</div>
+

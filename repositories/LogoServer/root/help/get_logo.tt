@@ -1,0 +1,129 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span12">
+      <a href="/help/api">REST API</a> &rarr; <a href="/help/api/get/logo/:uuid">GET /logo/:uuid</a>
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="span12">
+      <h2>GET /logo/:uuid</h2>
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="span12">
+      <h3>URL:</h3>
+      <p>http://sklign.org/logo/:uuid</p>
+    </div>
+  </div>
+
+      <div class="row-fluid">
+    <div class="span12">
+      <h3>Parameters:</h3>
+
+
+      <table class="parameters">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>uuid</strong><br/> <span class="small subtle">required</span></td>
+            <td>
+              <p>The unique identifier associated with the logo generated from a file upload. This is a string of characters in five groups separated by hyphens, in the form 8-4-4-4-12 for a total of 36 characters. An example would be: 6BBFEB96-E7E0-11E2-A243-DF86A4A34227 </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="row-fluid">
+    <div class="span12">
+      <h3>Repsonse Formats:</h3>
+      <p class="small">JSON, XML, YAML, Text, HTML, PNG</p>
+    </div>
+  </div>
+
+  <div class="row-fluid">
+    <div class="span12">
+      <h3>Examples:</h3>
+      <p>GET http://skylign.org/logo/6BBFEB96-E7E0-11E2-A243-DF86A4A34227</p>
+      <pre class="code">
+<span class="hilight"># Request</span>
+curl -H 'Accept:image/png' http://skylign.org/logo/6BBFEB96-E7E0-11E2-A243-DF86A4A34227 > 6BBFEB96-E7E0-11E2-A243-DF86A4A34227.png
+
+<span class="hilight"># Response</span>
+
+<img src="/static/gfx/example_logo.png" alt="hmm logo"/>
+
+<span class="hilight"># Request</span>
+curl -H 'Accept:application/json' http://skylign.org/logo/6BBFEB96-E7E0-11E2-A243-DF86A4A34227
+
+<span class="hilight"># Response</span>
+{
+  "mmline":[0,0,0,0,0,0,0,0],
+  "max_height_obs": 5.337,
+  "max_height_theory": 6.45311498641968,
+  "delete_probs":[0,0,0,0,0,0,0,0],
+  "height_arr":[
+    [
+      "V:0.001","M:0.001","C:0.001","W:0.001","I:0.001",
+      "S:0.002","T:0.002","N:0.002","K:0.002","Q:0.002",
+      "F:0.003","Y:0.003","E:0.003","L:0.003","A:0.003",
+      "P:0.003","D:0.003","R:0.003","G:0.006","H:5.292"
+    ],
+    [
+      "Q:0.001","W:0.001","H:0.001","N:0.002","K:0.002",
+      "Y:0.002","E:0.002","C:0.002","P:0.002","D:0.002",
+      "R:0.002","S:0.003","F:0.004","T:0.004","M:0.004",
+      "G:0.004","A:0.006","L:0.016","V:0.027","I:3.757"
+    ],
+    [
+      "Y:0.001","M:0.001","W:0.001","F:0.002","Q:0.002",
+      "H:0.002","I:0.002","K:0.003","E:0.003","C:0.003",
+      "L:0.003","D:0.003","R:0.003","N:0.004","V:0.005",
+      "P:0.005","T:0.01","G:0.011","A:0.018","S:3.562"
+    ],
+    [
+      "Y:0.001","M:0.001","W:0.001","F:0.002","Q:0.002",
+      "H:0.002","I:0.002","K:0.003","E:0.003","C:0.003",
+      "L:0.003","D:0.003","R:0.003","N:0.004","V:0.005",
+      "P:0.005","T:0.01","G:0.011","A:0.018","S:3.562"
+    ],
+    [
+      "Y:0.001","W:0.001","F:0.002","M:0.002","H:0.002",
+      "K:0.003","Q:0.003","I:0.003","E:0.004","C:0.004",
+      "L:0.004","D:0.004","R:0.004","N:0.006","V:0.007",
+      "G:0.015","S:0.023","A:0.028","P:0.416","T:2.819"
+    ],
+
+    [
+      "N:0.002","W:0.002","H:0.002","D:0.002","K:0.003",
+      "E:0.003","Q:0.003","P:0.003","R:0.003","G:0.003",
+      "C:0.004","S:0.005","Y:0.005","T:0.01","A:0.013",
+      "F:0.021","V:0.069","L:0.126","I:0.915","M:2.357"
+    ],
+
+    [
+      "F:0.001","Y:0.001","M:0.001","C:0.001","W:0.001",
+      "H:0.001","I:0.001","K:0.002","V:0.002","Q:0.002",
+      "L:0.002","R:0.002","T:0.003","P:0.003","S:0.004",
+      "E:0.004","A:0.005","D:0.005","G:0.006","N:4.409"
+    ],
+
+    [
+      "M:0","F:0.001","N:0.001","K:0.001","Y:0.001",
+      "V:0.001","Q:0.001","C:0.001","W:0.001","H:0.001",
+      "I:0.001","S:0.002","T:0.002","E:0.002","L:0.002",
+      "P:0.002","D:0.002","R:0.002","A:0.003","G:3.733"
+    ]
+  ],
+  "insert_lengths": [2,2,2,2,2,2,2,0],
+  "insert_probs":[0,0,0,0,0,0,0,0]
+}
+      </pre>
+    </div>
+  </div>

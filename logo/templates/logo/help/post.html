@@ -1,0 +1,108 @@
+{% extends "logo/base.html" %}
+{% load static %}
+
+{% block body_block %}
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span12">
+      <a href="{% url 'logo:help/api' %}">REST API</a> &rarr; <a href="{% url 'logo:help/post' %}">POST /</a>
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="span12">
+      <h2> POST /</h2>
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="span12">
+      <h3>URL:</h3>
+      <p>http://sklign.org/</p>
+    </div>
+  </div>
+
+  <div class="row-fluid">
+    <div class="span12">
+      <h3>Parameters:</h3>
+
+
+      <table class="parameters">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>file</strong><br/> <span class="small subtle">required</span></td>
+            <td>
+              <p>A single file that will be converted into a logo. It should be either a profile HMM or a multiple sequence alignment in one of the following accepted formats:</p>
+              <ul>
+                <li>Aligned FASTA</li>
+                <li>Clustal (and Clustal-like)</li>
+                <li>PSI-BLAST</li>
+                <li>PHYLIP</li>
+                <li>Selex</li>
+                <li>GCG/MSF</li>
+                <li>STOCKHOLM format</li>
+                <li>UC Santa Cruz A2M (alignment to model)</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>processing</strong><br/> <span class="small subtle">optional</span></td>
+            <td>
+              <p>The type of post processing to be performed on an alignment:</p>
+              <ul>
+                <li><b>observed</b> - Letter stacks and gap values depend on estimated distributions for each position. Estimate those distributions directly from observed frequencies.</li>
+                <li><b>weighted</b> - Letter stacks and gap values depend on estimated distributions for each position. Redundant sequences are downweighted, and distributions are estimated from frequencies computed using those sequence weights.</li>
+                <li><b>hmm</b> - Letter stacks and gap values depend on estimated distributions for each position. Use HMMER to estimate those distributions by applying sequence weights, absolute weights, and a Dirichlet mixture prior.</li>
+                <li><b>hmm_all</b> - </li>
+              </ul>
+              <strong>Default:</strong> observed
+            </td>
+          </tr>
+          <tr>
+            <td><strong>letter_height</strong><br/> <span class="small subtle">optional</span></td>
+            <td>
+              <p>Which height calculation algorithm should be used during logo generation. There are three different algorithms to choose from:</p>
+              <ul>
+                <li><b>info_content_all</b> - Stack height of each position is that position's information content. All letters are shown, subdividing stack height according to estimated letter probability.</li>
+                <li><b>info_content_above</b> - Stack height of each position is that position's information content. Positive-scoring (above background frequency) letters are shown, subdividing stack height according to estimated letter probability.</li>
+                <li><b>score</b> - In each position, letter height is the score of that letter at that position. Only positive-scoring letters are shown. Stack height has no inherent meaning.</li>
+              </ul>
+              <strong>Default:</strong> info_content_all
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="row-fluid">
+    <div class="span12">
+      <h3>Repsonse Formats:</h3>
+      <p class="small">JSON, XML, YAML, Text, HTML</p>
+    </div>
+  </div>
+
+  <div class="row-fluid">
+    <div class="span12">
+      <h3>Example:</h3>
+      <p>POST http://skylign.org/</p>
+      <pre class="code">
+<span class="hilight"># Request</span>
+curl -H 'Accept:application/json' -F file='@test.hmm' -F processing=hmm http://skylign.org/
+
+<span class="hilight"># Response</span>
+{
+  "url":"http://skylign.org/logo/6BBFEB96-E7E0-11E2-A243-DF86A4A34227",
+  "uuid":"6BBFEB96-E7E0-11E2-A243-DF86A4A34227",
+  "message":"Logo generated successfully"
+}
+</pre>
+    </div>
+  </div>
+
+{% endblock %}

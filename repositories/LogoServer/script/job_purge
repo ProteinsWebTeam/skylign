@@ -1,0 +1,64 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+use Getopt::Long;
+
+$|++;
+main();
+1;
+
+sub main {
+  my $opts = {};
+  GetOptions( $opts, 'help', 'days=s', 'trial', 'verbose') or usage();
+
+  if (exists $opts->{help}) {
+    usage();
+  }
+
+  my $start_dt = undef;
+
+  my $days = 14;
+
+  if ($opts->{days} && $opts->{days} =~ /^\d+$/) {
+    $days = $opts->{days};
+  }
+
+  if (!$opts->{trial}) {
+    # go to the results files on the file system
+    my @dirs = glob "/opt/data/logos";
+
+    for my $dir (@dirs) {
+      warn "clearing out $dir\n" if ($opts->{verbose});
+      # find only files in the $dir directory that are not
+      # newer than the start date
+      `find $dir -depth -type f -ctime +$days -exec rm {} \\;`;
+      # remove any empty directories that might be hanging around
+      `find $dir -mindepth 1 -depth -type d -empty -exec rm -rf {} \\;`;
+    }
+    warn "Old jobs have been purged.\n" if ($opts->{verbose});
+  }
+  else {
+    warn "Test Run: No old jobs have been purged.\n" if ($opts->{verbose});
+  }
+
+
+
+  return;
+}
+
+sub usage {
+  print qq($0 [options]
+
+  Deletes all jobs from the filesystem that were started more
+  than two weeks ago or before a date if specified.
+
+  options:
+    -h, --help    : Print this message and exit
+    -d, --days    : Specify a number of days rather than using the default of 2 weeks ago.
+    -t, --trial   : Do a dry run and don't delete anything.
+    -v, --verbose : Print out messages.
+);
+
+  exit;
+}

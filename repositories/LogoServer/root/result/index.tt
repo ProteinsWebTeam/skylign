@@ -1,0 +1,110 @@
+[% IF logo %]
+<div class="logo_wrapper clearfix">
+  <div class="logo" id="logo" data-logo = '[% logo %]'></div>
+  <a href="#logo_form" class="again">Generate another Logo</a>
+  <div id="col_info"></div>
+  [% INCLUDE 'components/compatibility.tt' %]
+</div>
+<div class="container-fluid info_block">
+  <div class="row-fluid">
+    <div class="span7">
+      <h2><span>Your [% IF c.stash.processing && c.stash.processing == 'hmm' %] Model [% ELSE %] Alignment [% END %] Logo</span></h2>
+      <dl>
+        <dt>Alphabet</dt>
+        <dd>[% c.stash.alphabet | upper %]</dd>
+        <dt>Letter Height</dt>
+        <dd>[% c.stash.letter_height_display | html %]</dd>
+        [% IF c.stash.processing  && c.stash.upload_type != 'hmm' %]
+        <dt>Alignment Processing</dt>
+        <dd>
+        [% IF c.stash.processing == 'observed' %]
+        Observed Counts
+        [% ELSIF  c.stash.processing == 'weighted' %]
+        Weighted Counts
+        [% ELSIF c.stash.processing == 'hmm_all' %]
+        HMM - keep all columns
+        [% ELSIF c.stash.processing == 'hmm' %]
+        HMM - remove mostly-empty columns
+        [% END %]
+        </dd>
+        [% END %]
+        <dt>Number of Sequences</dt>
+        <dd>[% c.stash.nseq %]</dd>
+        <dt>Length</dt>
+        <dd>[% c.stash.hmm_length %]</dd>
+        <dt>Uploaded File Name</dt>
+        <dd>[% c.stash.uploaded | html %]</dd>
+        <dt>Created</dt>
+        <dd>[% c.stash.hmm_created %]</dd>
+      </dl>
+      <div class="row-fluid">
+        <div class="span12">
+          <h2 id="logo_form"><span>Generate another Logo</span></h2>
+          [% INCLUDE 'components/logo_form.tt' %]
+        </div>
+      </div>
+    </div>
+    <div class="span5 download">
+      <h2 id="download"><span>Download Graphics</span></h2>
+      <form id="dl_gfx" action="[% c.uri_for('/download', c.stash.uuid, 'image') %]" method="get" enctype="multipart/form-data">
+        [% IF  c.stash.letter_height != 'score' && c.stash.alphabet != 'dna' %]
+        <div class="control-group colorchoice">
+          <div class="controls">
+            <fieldset>
+              <legend>Choose Color Scheme</legend>
+              <label class="radio">
+                <input type="radio" id="" name="colors" value="default" checked="checked"/>Default
+                  <a class="help" href="/help#colors_default" title="Each letter receives its own color.">
+                  <span aria-hidden="true" data-icon="?"></span><span class="reader-text">help</span></a>
+              </label>
+              <label class="radio">
+                <input type="radio" id="" name="colors" value="consensus"/>Consensus Colors
+                  <a class="help" href="/help#colors_consensus" title="Letters are colored as in Clustalx and Jalview, with colors depending on composition of the column.">
+                  <span aria-hidden="true" data-icon="?"></span><span class="reader-text">help</span></a>
+              </label>
+            </fieldset>
+          </div>
+        </div>
+        [% END %]
+        <dl>
+          <dt>
+            <button name="format" value="png"><img src="/static/gfx/png_dl.png" alt="download .png"/></button>
+          </dt>
+          <dd><h5>PNG file</h5><p>A static image of the logo.</p></dd>
+          [% IF c.stash.letter_height != 'score' %]
+          <dt>
+            <button name="format" value="spng"><img src="/static/gfx/png_dl.png" alt="download scaled .png"/></button>
+          </dt>
+          <dd><h5>scaled PNG file</h5><p>A static image of the logo scaled to the theoretical maximum height.</p></dd>
+          [% END %]
+          <dt>
+            <button name="format" value="svg"><img src="/static/gfx/svg_dl.png" alt="download .svg"/></button>
+          </dt>
+          <dd><h5>SVG file</h5><p>A vector image of the logo.</p></dd>
+        [% IF c.stash.processing && c.stash.processing == 'hmm' %]
+        </dl>
+      </form>
+
+
+
+
+      <h2 id="download"><span>Download Data</span></h2>
+      <dl>
+        <dt><a href="[% c.uri_for('/download', c.stash.uuid, 'hmm') %]" ><img src="/static/gfx/hmm_dl.png" alt="download .hmm"/></a></dt>
+        <dd><h5>HMM</h5><p>The HMM file used to calculate this logo.</p></dd>
+      [% END %]
+        <dt><a href="[% c.uri_for('/download', c.stash.uuid, 'json') %]" ><img src="/static/gfx/json_dl.png" alt="download .json"/></a></dt>
+        <dd><h5>JSON</h5><p>Raw data for the logo formatted in JavaScript Object Notation.</p></dd>
+        <dt><a href="[% c.uri_for('/download', c.stash.uuid, 'text') %]" ><img src="/static/gfx/tab_dl.png" alt="download tab delimited"/></a></dt>
+        <dd><h5>Tabular Text</h5><p>Raw data for the logo in a tab delimited text file.</p></dd>
+      </dl>
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="span12">
+      [% INCLUDE 'components/logo_usage.tt' %]
+      <p>See the <a href="/help">help pages</a> for more information.</p>
+    </div>
+  </div>
+</div>
+[% END %]
