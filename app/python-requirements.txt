@@ -1,0 +1,6 @@
+Django>=3.0,<4.0
+psycopg2-binary>=2.8
+mysqlclient>=2,<3
+django-mysql>=2.2.0,<3.0
+gunicorn
+pyyaml

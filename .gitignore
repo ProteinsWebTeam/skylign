@@ -1,0 +1,10 @@
+/app/uploads
+
+/app/.DS_Store
+/app/db.sqlite3
+/app/__pycache__
+*.pyc
+/app/.eggs
+/app/emgcli.egg-info/
+.pytest_cache/
+.vscode/

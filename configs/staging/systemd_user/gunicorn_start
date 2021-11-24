@@ -1,0 +1,11 @@
+#!/bin/bash
+
+gunicorn \
+  --workers 5 --threads 1 \
+  --bind 127.0.0.1:8000 \
+  --error-logfile /nfs/public/rw/xfam/skylign/configs/staging/logs/gunicorn_err.log \
+  --log-level debug --capture-output \
+  --pid /nfs/public/rw/xfam/skylign/configs/staging/pid_files/gunicorn_staging.pid \
+  --timeout 360 \
+  --daemon \
+  skylign_django.wsgi

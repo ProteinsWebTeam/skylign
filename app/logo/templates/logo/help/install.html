@@ -1,0 +1,126 @@
+{% extends "logo/base.html" %}
+{% load static %}
+
+{% block body_block %}
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span12">
+      <h1>Installing the Skylign Web Server</h1>
+    </div>
+  </div>
+  <div class="row-fluid">
+
+
+    <div class="span3 sidebar">
+      <ul>
+        <li><a href="#docker">Running Skylign locally with Docker and Django</a></li>
+        <li><a href="#deps">Server installation with Catalyst</a></li>
+        <ul>
+          <li><a href="#png">PNG support</a></li>
+          <li><a href="#freetype">True Type font support</a></li>
+          <li><a href="#perl">perl</a></li>
+          <li><a href="#perlsupport">supporting perl modules</a></li>
+        </ul>
+        <li><a href="#server">Installing the Catalyst Server</a></li>
+        <ul>
+          <li><a href="#bio-hmm-logo">Bio::HMM::Logo</a></li>
+        </ul>
+      </ul>
+    </div>
+    <div class="span9">
+      <p>This web server can be downloaded and run locally or in a production environment as a dockerized Django application or by manually downloading all the perl dependencies and running it as a Catalyst server.</p>
+      <h2 id="docker">Running Skylign locally with Docker and Django</h2>
+      
+      <p>Download the repository files from <a href="https://github.com/ProteinsWebTeam/skylign">https://github.com/ProteinsWebTeam/skylign</a></p>
+      
+      <p>From the repository folder, run docker-compose to instantiate a local version of the Skylign web server.
+        <pre class="code">
+
+# serve the app at http://localhost:8000/
+$ docker-compose -f docker-compose.yml up -d --build
+        </pre>
+      </p>
+    </div>
+    <div class="span9">
+      <h2 id="deps">Server installation with Catalyst</h2>
+      <b>For the purpose of these instructions it will be assumed that source files are placed in /opt/src.</b></p>
+      <h3 id="png"><span class="step">step 1</span> PNG support</h3>
+      <p><a href="http://www.libpng.org/pub/png/libpng.html">libpng</a> - required by Bio::HMM::Logo to produce PNG versions of the logos.</p>
+      <h3 id="freetype"><span class="step">step 2</span> True Type font support (linux)</h3>
+      <p><a href="http://www.freetype.org/">libfreetype</a> - required to produce PNG logos on linux.</p>
+      <h3 id="perl"><span class="step">step 3</span> perl</h3>
+      <p class="subtle">Note: We recommend using perl 5.14 or higher, older versions have not been tested but could also work.</p>
+      <p><a href="http://www.perl.org/get.html">Download perl</a> and install from source following their instructions or use the package manager of your choice.</p>
+
+      <p class="subtle">Note: You may already have perl installed on your system, so this step may not be necessary.</p>
+      <h3 id="perlsupport"><span class="step">step 4</span> supporting perl modules</h3>
+      <p>You will then need to install the following perl modules. This can be done easily via cpan. For example, to install Catalyst: </p>
+      <pre class="code">$ cpan install Catalyst</pre>
+      <p>Required by the <a href="http://www.catalystframework.org/`">Catalyst</a> web framework.</p>
+      <ul>
+        <li><a href="https://metacpan.org/module/Config::General">Config::General</a></li>
+        <li><a href="https://metacpan.org/module/YAML::Syck">YAML::Syck</a></li>
+        <li><a href="https://metacpan.org/module/Catalyst">Catalyst</a></li>
+        <li><a href="https://metacpan.org/module/Catalyst::Plugin::Static::Simple">Catalyst::Plugin::Static::Simple</a></li>
+        <li><a href="https://metacpan.org/module/Catalyst::Plugin::ConfigLoader">Catalyst::Plugin::ConfigLoader</a></li>
+        <li><a href="https://metacpan.org/module/Catalyst::Action::RenderView">Catalyst::Action::RenderView</a></li>
+        <li><a href="https://metacpan.org/module/Catalyst::Controller::REST">Catalyst::Controller::REST</a></li>
+      </ul>
+      <p>Required by Bio::HMM::Logo</p>
+      <ul>
+        <li><a href="https://metacpan.org/release/Inline">Inline</a> -  version 0.53 or higher</li>
+        <li><a href="https://metacpan.org/release/Imager">Imager</a></li>
+        <li><a href="https://metacpan.org/module/Imager::File::PNG">Imager::File::PNG</a></li>
+        <li><a href="https://metacpan.org/module/SVG">SVG</a></li>
+      </ul>
+      <p>Required by Skylign</p>
+      <ul>
+        <li><a href="https://metacpan.org/module/Data::UUID">Data::UUID</a></li>
+      </ul>
+
+
+      <h2 id="server">Installing the Catalyst Server</h2>
+      <p class="subtle">Note: If you have git installed, Skylign and Bio::HMM::Logo can be cloned from github. Otherwise a zip of the required files can be downloaded from the respective project page on the github website.</p>
+
+      <h3 id="bio-hmm-logo"><span class="step">step 5</span> Bio::HMM::Logo</h3>
+      <p>Skylign uses the Bio::HMM::Logo module for transforming alignments and HMMs into logos.</p>
+      <ul>
+        <li>Website - <a href="https://github.com/Janelia-Farm-Xfam/Bio-HMM-Logo">https://github.com/Janelia-Farm-Xfam/Bio-HMM-Logo</a></li>
+        <li>Clone url - <a href="https://github.com/Janelia-Farm-Xfam/Bio-HMM-Logo.git">https://github.com/Janelia-Farm-Xfam/Bio-HMM-Logo.git</a></li>
+        <li>Download - <a href="https://github.com/Janelia-Farm-Xfam/Bio-HMM-Logo/archive/master.zip">https://github.com/Janelia-Farm-Xfam/Bio-HMM-Logo/archive/master.zip</a></li>
+      </ul>
+      <h4>Install</h4>
+      <pre class="code">
+$ cd /opt/src/Bio-HMM-Logo
+$ perl Makefile.PL
+$ make
+$ make test
+$ sudo make install</pre>
+      <h3 id="skylign"><span class="step">step 6</span> Skylign</h3>
+      <p>The source code for the Skylign server is hosted on github.</p>
+      <ul>
+        <li>Website - <a href="https://github.com/Janelia-Farm-Xfam/LogoServer">https://github.com/Janelia-Farm-Xfam/LogoServer</a></li>
+        <li>Clone url - <a href="https://github.com/Janelia-Farm-Xfam/LogoServer.git">https://github.com/Janelia-Farm-Xfam/LogoServer.git</a></li>
+        <li>Download - <a href="https://github.com/Janelia-Farm-Xfam/LogoServer/archive/master.zip">https://github.com/Janelia-Farm-Xfam/LogoServer/archive/master.zip</a></li>
+      </ul>
+      <h4>Install</h4>
+      <p>The validation code within the Skylign server requires the hmmer src during compilation. It is expecting it to be in /opt/src/hmmer, so we just create a link to the source we downloaded with the Bio::HMM::Logo module.</p>
+      <pre class="code">
+$ ln -s /opt/src/Bio-HMM-Logo/src /opt/src/hmmer</pre>
+
+      <p>Each time a logo is created we store the result on disk for later retrieval. The website code expects the directory to exist, so we create it now.</p>
+      <pre class="code">
+$ mkdir /opt/data/logos</pre>
+      <h4>Starting the server.</h4>
+      <p>Set the working directory to be the root of the LogoServer download.</p>
+      <pre class="code">$ cd /opt/src/LogoServer</pre>
+      <p>Start the server in production mode on port 3000.</p>
+      <pre class="code">
+$ /path/to/perl ./script/logoserver_server
+HTTP::Server::PSGI: Accepting connections at http://0:3000/</pre>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

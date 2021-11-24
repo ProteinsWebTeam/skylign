@@ -1,0 +1,15 @@
+name: hmmer
+
+channels:
+  - conda-forge
+  - anaconda
+
+dependencies:
+  - Django>=3.0,<4.0
+  - psycopg2-binary
+  - mysqlclient>=2,<3
+  - mysql-connector-python
+  - gunicorn
+  - pandas
+  - numpy
+

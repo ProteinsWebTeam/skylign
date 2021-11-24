@@ -1,0 +1,18 @@
+version: "3.9"
+
+app_directory: "/app/"
+
+django:
+  debug: True
+  secret_key: "k8(69oxqf@23#fbqui^bm$$h@b&wd-@ms7-f!(je*o)1*51a!p"
+  allowed_hosts:
+    - "localhost"
+    - "127.0.0.1"
+
+database:
+  engine: django.db.backends.postgresql
+  database: skylign_django
+  user: root
+  password: password
+  host: db
+  port: 5432

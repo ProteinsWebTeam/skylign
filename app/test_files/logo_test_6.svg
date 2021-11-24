@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="300" width="2088" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<rect height="300" style="fill: #fff" width="2088" x="0" y="0" />
+	<line style="stroke: #999" x1="40" x2="40" y1="0" y2="5" />
+	<line style="stroke: #999" x1="40" x2="40" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="41" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="56" y="296">0.35</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 56, 285)" x="0" y="0">A</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="56" y="10">1</text>
+	<line style="stroke: #999" x1="72" x2="72" y1="0" y2="5" />
+	<line style="stroke: #999" x1="72" x2="72" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="73" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="88" y="296">0.35</text>
+	<text style="fill: #b51f16; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 88, 285)" x="0" y="0">T</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="88" y="10">2</text>
+	<line style="stroke: #999" x1="104" x2="104" y1="0" y2="5" />
+	<line style="stroke: #999" x1="104" x2="104" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="105" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="120" y="296">0.35</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 120, 279.3)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="120" y="10">3</text>
+	<line style="stroke: #999" x1="136" x2="136" y1="0" y2="5" />
+	<line style="stroke: #999" x1="136" x2="136" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="137" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="152" y="296">0.35</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 152, 285)" x="0" y="0">A</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="152" y="10">4</text>
+	<line style="stroke: #999" x1="168" x2="168" y1="0" y2="5" />
+	<line style="stroke: #999" x1="168" x2="168" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="169" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="184" y="296">0.35</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 184, 279.3)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="184" y="10">5</text>
+	<line style="stroke: #999" x1="200" x2="200" y1="0" y2="5" />
+	<line style="stroke: #999" x1="200" x2="200" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="201" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="216" y="296">0.35</text>
+	<text style="fill: #b51f16; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 216, 285)" x="0" y="0">T</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="216" y="10">6</text>
+	<line style="stroke: #999" x1="232" x2="232" y1="0" y2="5" />
+	<line style="stroke: #999" x1="232" x2="232" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="233" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="248" y="296">0.62</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 248, 279.3)" x="0" y="0">C</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="248" y="10">7</text>
+	<line style="stroke: #999" x1="264" x2="264" y1="0" y2="5" />
+	<line style="stroke: #999" x1="264" x2="264" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="265" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="280" y="296">0.62</text>
+	<text style="fill: #b51f16; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 280, 285)" x="0" y="0">T</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="280" y="10">8</text>
+	<line style="stroke: #999" x1="296" x2="296" y1="0" y2="5" />
+	<line style="stroke: #999" x1="296" x2="296" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="297" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="312" y="296">0.62</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 2.8215, 312, 169.8942)" x="0" y="0">C</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.862, 312, 282.7656)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="312" y="10">9</text>
+	<line style="stroke: #999" x1="328" x2="328" y1="0" y2="5" />
+	<line style="stroke: #999" x1="328" x2="328" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="329" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="344" y="296">0.62</text>
+	<text style="fill: #b51f16; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 344, 285)" x="0" y="0">T</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="344" y="10">10</text>
+	<line style="stroke: #999" x1="360" x2="360" y1="0" y2="5" />
+	<line style="stroke: #999" x1="360" x2="360" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="361" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="376" y="296">0.62</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 376, 279.3)" x="0" y="0">C</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="376" y="10">11</text>
+	<line style="stroke: #999" x1="392" x2="392" y1="0" y2="5" />
+	<line style="stroke: #999" x1="392" x2="392" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="393" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="408" y="296">0.62</text>
+	<text style="fill: #b51f16; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 408, 285)" x="0" y="0">T</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="408" y="10">12</text>
+	<line style="stroke: #999" x1="424" x2="424" y1="0" y2="5" />
+	<line style="stroke: #999" x1="424" x2="424" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="425" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="440" y="296">0.62</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 2.8215, 440, 169.8942)" x="0" y="0">G</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.862, 440, 282.7656)" x="0" y="0">C</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="440" y="10">13</text>
+	<line style="stroke: #999" x1="456" x2="456" y1="0" y2="5" />
+	<line style="stroke: #999" x1="456" x2="456" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="457" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="472" y="296">0.62</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 2.8215, 472, 173.28)" x="0" y="0">A</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.862, 472, 282.7656)" x="0" y="0">C</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="472" y="10">14</text>
+	<line style="stroke: #999" x1="488" x2="488" y1="0" y2="5" />
+	<line style="stroke: #999" x1="488" x2="488" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="489" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="504" y="296">0.62</text>
+	<text style="fill: #b51f16; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 504, 285)" x="0" y="0">T</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="504" y="10">15</text>
+	<line style="stroke: #999" x1="520" x2="520" y1="0" y2="5" />
+	<line style="stroke: #999" x1="520" x2="520" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="521" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="536" y="296">0.62</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 2.8215, 536, 173.28)" x="0" y="0">A</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.862, 536, 282.7656)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="536" y="10">16</text>
+	<line style="stroke: #999" x1="552" x2="552" y1="0" y2="5" />
+	<line style="stroke: #999" x1="552" x2="552" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="553" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="568" y="296">0.62</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 2.8215, 568, 173.28)" x="0" y="0">A</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.862, 568, 282.7656)" x="0" y="0">C</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="568" y="10">17</text>
+	<line style="stroke: #999" x1="584" x2="584" y1="0" y2="5" />
+	<line style="stroke: #999" x1="584" x2="584" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="585" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="600" y="296">0.62</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 2.8215, 600, 169.8942)" x="0" y="0">G</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.862, 600, 282.7656)" x="0" y="0">C</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="600" y="10">18</text>
+	<line style="stroke: #999" x1="616" x2="616" y1="0" y2="5" />
+	<line style="stroke: #999" x1="616" x2="616" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="617" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="632" y="296">0.62</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 632, 279.3)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="632" y="10">19</text>
+	<line style="stroke: #999" x1="648" x2="648" y1="0" y2="5" />
+	<line style="stroke: #999" x1="648" x2="648" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="649" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="664" y="296">1.00</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 664, 285)" x="0" y="0">A</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="664" y="10">20</text>
+	<line style="stroke: #999" x1="680" x2="680" y1="0" y2="5" />
+	<line style="stroke: #999" x1="680" x2="680" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="681" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="696" y="296">1.00</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 696, 279.3)" x="0" y="0">C</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="696" y="10">21</text>
+	<line style="stroke: #999" x1="712" x2="712" y1="0" y2="5" />
+	<line style="stroke: #999" x1="712" x2="712" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="713" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="728" y="296">1.00</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 728, 285)" x="0" y="0">A</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="728" y="10">22</text>
+	<line style="stroke: #999" x1="744" x2="744" y1="0" y2="5" />
+	<line style="stroke: #999" x1="744" x2="744" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="745" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="760" y="296">1.00</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 760, 285)" x="0" y="0">A</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="760" y="10">23</text>
+	<line style="stroke: #999" x1="776" x2="776" y1="0" y2="5" />
+	<line style="stroke: #999" x1="776" x2="776" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="777" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="792" y="296">1.00</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 3.097, 792, 193.6461)" x="0" y="0">G</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.460625, 792, 285)" x="0" y="0">A</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="792" y="10">24</text>
+	<line style="stroke: #999" x1="808" x2="808" y1="0" y2="5" />
+	<line style="stroke: #999" x1="808" x2="808" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="809" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="824" y="296">1.00</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 3.265625, 824, 214.89)" x="0" y="0">A</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.1685, 824, 283.5978)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="824" y="10">25</text>
+	<line style="stroke: #999" x1="840" x2="840" y1="0" y2="5" />
+	<line style="stroke: #999" x1="840" x2="840" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="841" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="856" y="296">1.00</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 3.097, 856, 193.6461)" x="0" y="0">C</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.460625, 856, 283.24725)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="856" y="10">26</text>
+	<line style="stroke: #999" x1="872" x2="872" y1="0" y2="5" />
+	<line style="stroke: #999" x1="872" x2="872" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="873" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="888" y="296">1.00</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 3.265625, 888, 210.97125)" x="0" y="0">C</text>
+	<text style="fill: #b51f16; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.1685, 888, 285)" x="0" y="0">T</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="888" y="10">27</text>
+	<line style="stroke: #999" x1="904" x2="904" y1="0" y2="5" />
+	<line style="stroke: #999" x1="904" x2="904" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="905" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="920" y="296">1.00</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 3.265625, 920, 214.89)" x="0" y="0">A</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.1685, 920, 283.5978)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="920" y="10">28</text>
+	<line style="stroke: #999" x1="936" x2="936" y1="0" y2="5" />
+	<line style="stroke: #999" x1="936" x2="936" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="937" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="952" y="296">1.00</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 3.265625, 952, 214.89)" x="0" y="0">A</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.1685, 952, 283.5978)" x="0" y="0">C</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="952" y="10">29</text>
+	<line style="stroke: #999" x1="968" x2="968" y1="0" y2="5" />
+	<line style="stroke: #999" x1="968" x2="968" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="969" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="984" y="296">1.00</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 3.265625, 984, 210.97125)" x="0" y="0">C</text>
+	<text style="fill: #b51f16; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.1685, 984, 285)" x="0" y="0">T</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="984" y="10">30</text>
+	<line style="stroke: #999" x1="1000" x2="1000" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1000" x2="1000" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="1001" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="1016" y="296">1.00</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 3.097, 1016, 193.6461)" x="0" y="0">G</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.460625, 1016, 285)" x="0" y="0">A</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1016" y="10">31</text>
+	<line style="stroke: #999" x1="1032" x2="1032" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1032" x2="1032" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="1033" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="1048" y="296">1.00</text>
+	<text style="fill: #b51f16; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1048, 285)" x="0" y="0">T</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1048" y="10">32</text>
+	<line style="stroke: #999" x1="1064" x2="1064" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1064" x2="1064" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="1065" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="1080" y="296">1.00</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 3.265625, 1080, 210.97125)" x="0" y="0">C</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.1685, 1080, 283.5978)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1080" y="10">33</text>
+	<line style="stroke: #999" x1="1096" x2="1096" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1096" x2="1096" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="1097" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="1112" y="296">1.00</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1112, 285)" x="0" y="0">A</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1112" y="10">34</text>
+	<line style="stroke: #999" x1="1128" x2="1128" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1128" x2="1128" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="1129" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="1144" y="296">1.00</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1144, 285)" x="0" y="0">A</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1144" y="10">35</text>
+	<line style="stroke: #999" x1="1160" x2="1160" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1160" x2="1160" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="1161" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="1176" y="296">1.00</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 3.265625, 1176, 210.97125)" x="0" y="0">G</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.1685, 1176, 285)" x="0" y="0">A</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1176" y="10">36</text>
+	<line style="stroke: #999" x1="1192" x2="1192" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1192" x2="1192" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="1193" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="1208" y="296">1.00</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1208, 279.3)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1208" y="10">37</text>
+	<line style="stroke: #999" x1="1224" x2="1224" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1224" x2="1224" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="1225" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="1240" y="296">1.00</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1240, 279.3)" x="0" y="0">C</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1240" y="10">38</text>
+	<line style="stroke: #999" x1="1256" x2="1256" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1256" x2="1256" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="1257" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="1272" y="296">1.00</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 3.097, 1272, 193.6461)" x="0" y="0">C</text>
+	<text style="fill: #b51f16; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.460625, 1272, 285)" x="0" y="0">T</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1272" y="10">39</text>
+	<line style="stroke: #999" x1="1288" x2="1288" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1288" x2="1288" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="1289" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="1304" y="296">1.00</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 3.265625, 1304, 210.97125)" x="0" y="0">G</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.1685, 1304, 283.5978)" x="0" y="0">C</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1304" y="10">40</text>
+	<line style="stroke: #999" x1="1320" x2="1320" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1320" x2="1320" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="1321" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="1336" y="296">1.00</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 3.265625, 1336, 210.97125)" x="0" y="0">C</text>
+	<text style="fill: #b51f16; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.1685, 1336, 285)" x="0" y="0">T</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1336" y="10">41</text>
+	<line style="stroke: #999" x1="1352" x2="1352" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1352" x2="1352" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="1353" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="1368" y="296">1.00</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 3.265625, 1368, 210.97125)" x="0" y="0">C</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.1685, 1368, 285)" x="0" y="0">A</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1368" y="10">42</text>
+	<line style="stroke: #999" x1="1384" x2="1384" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1384" x2="1384" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="1385" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="1400" y="296">1.00</text>
+	<text style="fill: #b51f16; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1400, 285)" x="0" y="0">T</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1400" y="10">43</text>
+	<line style="stroke: #999" x1="1416" x2="1416" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1416" x2="1416" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="1417" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="1432" y="296">1.00</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1432, 279.3)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1432" y="10">44</text>
+	<line style="stroke: #999" x1="1448" x2="1448" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1448" x2="1448" y1="285" y2="290" />
+	<rect height="15" style="fill: #ffffff" width="32" x="1449" y="285" />
+	<text style="fill: #666666; font-family: Arial; font-size: 10px; text-anchor: middle" x="1464" y="296">1.00</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1464, 279.3)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1464" y="10">45</text>
+	<line style="stroke: #999" x1="1480" x2="1480" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1480" x2="1480" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="1481" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="1496" y="296">0.65</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1496, 279.3)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1496" y="10">46</text>
+	<line style="stroke: #999" x1="1512" x2="1512" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1512" x2="1512" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="1513" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="1528" y="296">0.65</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1528, 279.3)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1528" y="10">47</text>
+	<line style="stroke: #999" x1="1544" x2="1544" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1544" x2="1544" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="1545" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="1560" y="296">0.65</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 2.945, 1560, 180.006)" x="0" y="0">G</text>
+	<text style="fill: #b51f16; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 1.691, 1560, 285)" x="0" y="0">T</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1560" y="10">48</text>
+	<line style="stroke: #999" x1="1576" x2="1576" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1576" x2="1576" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="1577" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="1592" y="296">0.65</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1592, 285)" x="0" y="0">A</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1592" y="10">49</text>
+	<line style="stroke: #999" x1="1608" x2="1608" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1608" x2="1608" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="1609" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="1624" y="296">0.65</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1624, 285)" x="0" y="0">A</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1624" y="10">50</text>
+	<line style="stroke: #999" x1="1640" x2="1640" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1640" x2="1640" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="1641" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="1656" y="296">0.65</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1656, 279.3)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1656" y="10">51</text>
+	<line style="stroke: #999" x1="1672" x2="1672" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1672" x2="1672" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="1673" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="1688" y="296">0.38</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1688, 285)" x="0" y="0">A</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1688" y="10">52</text>
+	<line style="stroke: #999" x1="1704" x2="1704" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1704" x2="1704" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="1705" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="1720" y="296">0.38</text>
+	<text style="fill: #b51f16; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1720, 285)" x="0" y="0">T</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1720" y="10">53</text>
+	<line style="stroke: #999" x1="1736" x2="1736" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1736" x2="1736" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="1737" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="1752" y="296">0.38</text>
+	<text style="fill: #b51f16; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1752, 285)" x="0" y="0">T</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1752" y="10">54</text>
+	<line style="stroke: #999" x1="1768" x2="1768" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1768" x2="1768" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="1769" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="1784" y="296">0.38</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1784, 279.3)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1784" y="10">55</text>
+	<line style="stroke: #999" x1="1800" x2="1800" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1800" x2="1800" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="1801" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="1816" y="296">0.38</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1816, 279.3)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1816" y="10">56</text>
+	<line style="stroke: #999" x1="1832" x2="1832" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1832" x2="1832" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="1833" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="1848" y="296">0.38</text>
+	<text style="fill: #b51f16; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1848, 285)" x="0" y="0">T</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1848" y="10">57</text>
+	<line style="stroke: #999" x1="1864" x2="1864" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1864" x2="1864" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="1865" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="1880" y="296">0.38</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1880, 279.3)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1880" y="10">58</text>
+	<line style="stroke: #999" x1="1896" x2="1896" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1896" x2="1896" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="1897" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="1912" y="296">0.38</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1912, 279.3)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1912" y="10">59</text>
+	<line style="stroke: #999" x1="1928" x2="1928" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1928" x2="1928" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="1929" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="1944" y="296">0.38</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1944, 279.3)" x="0" y="0">C</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1944" y="10">60</text>
+	<line style="stroke: #999" x1="1960" x2="1960" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1960" x2="1960" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="1961" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="1976" y="296">0.38</text>
+	<text style="fill: #5ec0cc; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 1976, 279.3)" x="0" y="0">C</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="1976" y="10">61</text>
+	<line style="stroke: #999" x1="1992" x2="1992" y1="0" y2="5" />
+	<line style="stroke: #999" x1="1992" x2="1992" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="1993" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="2008" y="296">0.38</text>
+	<text style="fill: #cbf751; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 2008, 285)" x="0" y="0">A</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="2008" y="10">62</text>
+	<line style="stroke: #999" x1="2024" x2="2024" y1="0" y2="5" />
+	<line style="stroke: #999" x1="2024" x2="2024" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="2025" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="2040" y="296">0.38</text>
+	<text style="fill: #b51f16; font-family: Arial; font-size: 85px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 2040, 285)" x="0" y="0">T</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="2040" y="10">63</text>
+	<line style="stroke: #999" x1="2056" x2="2056" y1="0" y2="5" />
+	<line style="stroke: #999" x1="2056" x2="2056" y1="285" y2="290" />
+	<rect height="15" style="fill: #2171b5" width="32" x="2057" y="285" />
+	<text style="fill: #ffffff; font-family: Arial; font-size: 10px; text-anchor: middle" x="2072" y="296">0.38</text>
+	<text style="fill: #ffdf59; font-family: Arial; font-size: 80px; font-weight: bold; text-anchor: middle" transform="matrix(0.457142857142857, 0, 0, 4.75, 2072, 279.3)" x="0" y="0">G</text>
+	<text style="fill: #999; font-family: Arial; font-size: 10px; text-anchor: middle" x="2072" y="10">64</text>
+	<line style="stroke: #999" x1="35" x2="2088" y1="0" y2="0" />
+	<text style="fill: #666; font-family: Arial; font-size: 10px; text-anchor: end" x="35" y="8">2.00</text>
+	<line style="stroke: #999" x1="40" x2="2088" y1="285" y2="285" />
+	<text style="fill: #666; font-family: Arial; font-size: 10px; text-anchor: end" x="35" y="285">0</text>
+	<line style="stroke: #999" x1="35" x2="40" y1="142.5" y2="142.5" />
+	<text style="fill: #666; font-family: Arial; font-size: 10px; text-anchor: end" x="35" y="145.5">1.00</text>
+	<line style="stroke: #999" x1="40" x2="40" y1="0" y2="300" />
+	<!--
+	Generated using the Perl SVG Module V2.84
+	by Ronan Oger
+	Info: http://www.roitsystems.com/
+	-->
+</svg>
