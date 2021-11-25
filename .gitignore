@@ -1,6 +1,6 @@
 /app/uploads
 
-/app/.DS_Store
+*DS_Store
 /app/db.sqlite3
 /app/__pycache__
 *.pyc

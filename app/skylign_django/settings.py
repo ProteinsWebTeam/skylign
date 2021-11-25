@@ -14,8 +14,14 @@ from pathlib import Path
 import yaml
 import os
 
-# load configs for the current environment
+# load configs for the docker environment
 config_file = 'docker_configs.yml'
+
+# load configs for the staging environment
+# config_file = 'staging_configs.yml'
+
+# load configs for the live environment
+# config_file = 'live_configs.yml'
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
