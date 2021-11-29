@@ -9,6 +9,11 @@ app_name = "logo"
 urlpatterns = [
     path("", views.index, name="index"),
     path(
+        "3dpatch/", 
+        TemplateView.as_view(template_name="3DPatch/index.html"), 
+        name="3DPatch"
+    ),
+    path(
         "help/", 
         TemplateView.as_view(template_name="logo/help/index.html"), 
         name="help"

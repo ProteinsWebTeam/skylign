@@ -1,0 +1,144 @@
+html {
+    background-image: linear-gradient(to bottom, white, #E2F7CD);
+/*    background: #E2F7CD;*/
+}
+
+body {
+    width: 1300px;
+    margin: 0 auto;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+    margin-top: 10px;
+}
+
+.headerFooterBox {
+    background: #F8E2CD;
+    width: 1270px;
+    padding: 8px;
+    border: 2px solid black;
+    margin: 0 5px;
+}
+
+#headerLeftDiv {
+    display: inline-block;
+    width: 760px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline dotted;
+}
+
+#headerRightDiv {
+    display: inline-block;
+    margin-left: 65px;
+}
+
+#headerExampleImg {
+    position: relative;
+    top: 10px;
+}
+
+main {
+    margin-top: 10px;
+}
+
+#leftColumnDiv {
+    width: 640px;
+    margin: 0 5px;
+    float: left;
+}
+
+#rightColumnDiv {
+    width: 640px;
+    margin: 0 5px;
+    float: right;
+}
+
+.sectionBox {
+    background: white;
+    padding: 8px;
+    border: 2px solid black;
+}
+
+#sequenceInput {
+    resize: none;
+}
+
+#informationContentProfileSection {
+    margin-top: 10px;
+}
+
+#informationContentProfileSVG {
+    cursor: default;
+}
+
+#domainCoverageSection {
+    margin-top: 10px;
+}
+
+#domainCoverageSVG {
+    cursor: default;
+}
+
+#infoBoxDiv {
+    background-color: #E7EAFD;
+    width: 610px;
+    height: 180px;
+    padding: 3px;
+    border: 2px solid black;
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    overflow: auto;
+    white-space: pre-wrap;
+}
+
+#sequenceAlignmentSection {
+    margin-top: 10px;
+}
+
+#sequenceAlignmentDiv {
+    cursor: default;
+    background-color: #FFFFFF;
+    width: 620px;
+    height: 122px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    line-height: 8px;
+    overflow: auto;
+    overflow-y: hidden;
+    white-space: pre;
+}
+
+#litemolSection {
+    margin-top: 10px;
+}
+
+#litemol {
+    width: 620px;
+    height: 480px;
+    position: relative;
+}
+
+footer {
+    padding: 10px 0;
+    clear: both;
+}
+
+#footerLeftDiv {
+    display: inline-block;
+}
+
+#footerRightDiv {
+    display: inline-block;
+    margin-left: 160px;
+}
+
+img {
+    margin: 0 15px;
+}

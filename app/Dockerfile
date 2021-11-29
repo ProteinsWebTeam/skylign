@@ -61,7 +61,7 @@ RUN chmod +x /usr/src/app/entrypoint.sh
 
 COPY . /app
 
-RUN mkdir /app/staticfiles
+# RUN mkdir /app/staticfiles
 
 WORKDIR /app
 
