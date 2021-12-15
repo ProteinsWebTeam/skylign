@@ -2,33 +2,32 @@ package Easel::Validation;
 use Data::Printer;
 
 my $src_file = undef;
+my $app_path = undef;
 
 BEGIN {
   $src_file = __FILE__;
   $src_file =~ s/\.pm/\.c/;
+
+  # since these files get called from different locations during compilation and execution time
+  # issues arise when we try to load the path dinamically; the paths are therefore hard encoded
+  # and we just uncomment the relevant line in staging and live environments
+
+  # docker
+  $app_path = '/app/';
+
+  # staging
+  # $app_path = '/nfs/public/rw/xfam/skylign/staging/';
+
+  # live
+  # $app_path = '/nfs/public/rw/xfam/skylign/live_django/';
 }
 
-# since these files get called from different locations during compilation and execution time
-# issues arise when we try to load the path dinamically; the paths are therefore hard encoded
-# and we just uncomment the relevant line in staging and live environments
-
-my $app_path;
-
-# docker
-$app_path = '/app/';
-
-# staging
-# $app_path = '/nfs/public/rw/xfam/skylign/staging/';
-
-# live
-# $app_path = '/nfs/public/rw/xfam/skylign/live_django/';
-
 # Inline C compiler
-use Inline C         => "$src_file",
+use Inline C         => $src_file,
            ENABLE    => 'AUTOWRAP',
            #DIRECTORY => '/opt/www/HmmerWeb/current/build',
-           INC       => "-I$app_path/repositories/hmmer/easel -I$app_path/repositories/hmmer/src",
-           LIBS      => "-L$app_path/repositories/hmmer/easel -L$app_path/repositories/hmmer/src -lhmmer -leasel -lsvml -lirc",
+           INC       => '-I'.$app_path.'/repositories/hmmer/easel -I'.$app_path.'/repositories/hmmer/src',
+           LIBS      => '-L'.$app_path.'/repositories/hmmer/easel -L'.$app_path.'/repositories/hmmer/src -lhmmer -leasel -lsvml -lirc',
            NAME      => 'Easel::Validation',
            ENABLE    => 'SAFEMODE',
            ENABLE    => 'CLEAN_BUILD_AREA', #Production have enabled

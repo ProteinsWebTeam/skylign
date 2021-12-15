@@ -7,7 +7,7 @@ use Cwd;
 # issues arise when we try to load the path dinamically; the paths are therefore hard encoded
 # and we just uncomment the relevant line in staging and live environments
 
-my $app_path;
+my $app_path=undef;
 
 # docker
 $app_path = '/app/';
@@ -38,8 +38,8 @@ chdir $orig_location;
 WriteMakefile(
     NAME                => 'Bio::HMM::Logo',
     AUTHOR              => q{Jody Clements <clementsj@janelia.hhmi.org>},
-    VERSION_FROM        => "$app_path/repositories/Bio-HMM-Logo/lib/Bio/HMM/Logo.pm",
-    ABSTRACT_FROM       => "$app_path/repositories/Bio-HMM-Logo/lib/Bio/HMM/Logo.pm",
+    VERSION_FROM        => $app_path."/repositories/Bio-HMM-Logo/lib/Bio/HMM/Logo.pm",
+    ABSTRACT_FROM       => $app_path."/repositories/Bio-HMM-Logo/lib/Bio/HMM/Logo.pm",
     ($ExtUtils::MakeMaker::VERSION >= 6.3002
       ? ('LICENSE'=> 'perl')
       : ()),

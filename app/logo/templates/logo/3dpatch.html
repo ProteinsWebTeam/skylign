@@ -1,0 +1,117 @@
+{# Django modules #}
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>3DPatch</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+        <link href="{% static '3dpatch/styles/style.css' %}" rel="stylesheet" type="text/css">
+        <script src="{% static '3dpatch/scripts/conservationColorScale/conservationColorScale.js' %}"></script>
+        <script src="{% static '3dpatch/scripts/d3.min.js' %}"></script>
+        <link href="{% static '3dpatch/scripts/LiteMol/css/LiteMol-plugin-light.min.css' %}", rel="stylesheet", type="text/css">
+        <script src="{% static '3dpatch/scripts/LiteMol/js/LiteMol-plugin.js' %}"></script>
+    </head>
+    <body>
+        <header>
+            <div class="headerFooterBox">
+                <div id="headerLeftDiv">
+                    <h1>3DPatch</h1>
+                    <p>3DPatch is an application facilitating residue-level information content calculations, homology searches, and 3D structure conservation level-based mark-up for protein sequence or profile hidden Markov model (HMM) queries.</p>
+                    <p>Find out more about 3DPatch in <a href="{% static '3dpatch/extras/help.html' %}" target="_blank">Help</a> or in the <a href="https://doi.org/10.1093/bioinformatics/bty464" target="_blank">3DPatch <i>Bioinformatics</i> paper</a>.</p>
+                </div>
+                <div id="headerRightDiv">
+                    <img id="headerExampleImg" width="328" height="150" alt="mark-up-example" src="{% static '3dpatch/styles/images/header-example.png' %}">
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id="leftColumnDiv">
+                <section class="sectionBox">
+                    <h3>Start new search</h3>
+                    <p>Enter a protein sequence<a href="{% static '3dpatch/extras/help.html#inputHelpSection' %}" target="_blank"><sup>[Help]</sup></a></p>
+                    <p>
+                        <textarea id="sequenceInput" autocomplete="off" cols=61 placeholder="Plain or FASTA-formatted protein sequence." rows=5 wrap="soft"></textarea>
+                    </p>
+                    <p>
+                        <button id="submitSequenceButton" autocomplete="off">Submit sequence</button>
+                        <button id="clearSequenceInputButton">Clear</button>
+                        <button id="exampleSequenceInputButton">Example</button>
+                    </p>
+                    <p>Or upload a profile HMM file</p>
+                    <p>
+                        <input id="HMMInput" type="file">
+                        <button id="submitHMMButton" autocomplete="off">Submit profile HMM</button>
+                    </p>
+                    <hr>
+                    <h3>Load state</h3>
+                    <p>Upload a save point file<a href="{% static '3dpatch/extras/help.html#savePointHelpSection' %}" target="_blank"><sup>[Help]</sup></a></p>
+                    <p>
+                        <input id="savePointInput" type="file">
+                        <button id="loadSavePointButton" autocomplete="off">Load</button>
+                        <a id="createSavePointFileAnchor" download="" href=""><button id="createSavePointFileButton" autocomplete="off" disabled=true>Create save point file</button></a>
+                    </p>
+                </section>
+                <section id="informationContentProfileSection" class="sectionBox">
+                    <h3>Profile HMM information content profile</h3>
+                    <svg id="informationContentProfileSVG" width="620" height="210"></svg>
+                </section>
+                <section id="domainCoverageSection" class="sectionBox">
+                    <h3>Profile HMM structure coverage</h3>
+                    <p>Click on a box to view the structure<a href="{% static '3dpatch/extras/help.html#hmmCoverageHelpSection' %}" target="_blank"><sup>[Help]</sup></a></p>
+                    <svg id="domainCoverageSVG" width="620"></svg>
+                    <hr>
+                    <p>Looking for a different structure ? Select it below</p>
+                    <p>
+                        <select id="structureSelection"></select>
+                        <button id="selectStructureButton" autocomplete="off">Select structure</button>
+                    </p>
+                    <p>See which of these PDB chains have the same sequence <a id="referenceStructuresListAnchor" href="" rel="noopener noreferrer" target="_blank">here</a>.</p>
+                </section>
+            </div>
+            <div id="rightColumnDiv">
+                <section class="sectionBox">
+                    <h3>Log</h3>
+                    <div id="infoBoxDiv"></div>
+                </section>
+                <section id="sequenceAlignmentSection" class="sectionBox">
+                    <h3>Sequence alignment</h3>
+                    <p>Select a PDB chain residue to see it highlighted in the viewer<a href="{% static '3dpatch/extras/help.html#sequenceAlignmentHelpSection' %}" target="_blank"><sup>[Help]</sup></a></p>
+                    <div id="sequenceAlignmentDiv"></div>
+                </section>
+                <section id="litemolSection" class="sectionBox">
+                    <h3>Structure viewer</h3>
+                    <div id="litemol"></div>
+                    <svg id="informationContentColorScaleSVG" width="620" height="90"></svg>
+                    <hr>
+                    <p>Change the information content color scaling method<a href="{% static '3dpatch/extras/help.html#colorScalingHelpSection' %}" target="_blank"><sup>[Help]</sup></a></p>
+                    <p>
+                        <select id="scalingSelection">
+                            <option value="linearAbsolute">Linear (absolute)</option>
+                            <option value="linearRelative" selected>Linear (relative)</option>
+                            <option value="exponentialAbsolute">Exponential (absolute)</option>
+                            <option value="exponentialRelative">Exponential (relative)</option>
+                        </select>
+                        <button id="applyScalingButton" autocomplete="off" disabled=true>Apply scaling</button>
+                    </p>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="headerFooterBox">
+                <div id="footerLeftDiv">
+                    <p>Developed by <a href="https://www.uochb.cz/web/structure/1111.html?do[loadData]=1&itemKey=en_6">David Jakubec</a> and <a href="https://www.ebi.ac.uk/about/people/rob-finn">Rob Finn</a> in 2017&ndash;2018.</p>
+                    <p style="display:inline;">Have feedback ? Found bugs ? </p><address style="display:inline;"><a href="mailto:david.jakubec@uochb.cas.cz">Let me know</a></address><p style="display:inline;">.</p>
+                    <p>Source available on <a href="https://github.com/davidjakubec/3DPatch">GitHub</a>.</p>
+                </div>
+                <div id="footerRightDiv">
+                    <a href="https://www.elixir-europe.org/"><img width="100" height="75" alt="elixir-logo" src="{% static '3dpatch/styles/images/elixir-logo.png' %}"></a>
+                    <a href="https://www.uochb.cz/web/structure/31.html?lang=en"><img width="206" height="75" style="padding-left:10px;" alt="iocb-logo" src="{% static '3dpatch/styles/images/iocb-logo.png' %}"></a>
+                    <a href="https://www.ebi.ac.uk/"><img width="241" height="75" alt="embl-ebi-logo" src="{% static '3dpatch/styles/images/embl-ebi-logo.png' %}"></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script src="{% static '3dpatch/scripts/main.js' %}"></script>
+</html>

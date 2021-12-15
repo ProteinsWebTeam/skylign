@@ -6,7 +6,7 @@ services:
     build: ./app
     command: python3 manage.py runserver 0.0.0.0:8000 # tail -f /dev/null
     volumes:
-      - ./app/:/app/
+      # - ./app/:/app/
       # - ./app/perl_functions:/app/perl_functions
       # - ./app/logo:/app/logo
       - ./app/uploads:/app/uploads

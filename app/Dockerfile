@@ -23,9 +23,11 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
 # copy and install required Python libraries
-
 COPY python-requirements.txt /app
 RUN pip3 install -r python-requirements.txt
+
+# copy the app folder
+COPY . /app
 
 # copy the repository folder
 
@@ -58,8 +60,6 @@ RUN cp /app/repositories/less.js/packages/less/bin/lessc /app/bin
 COPY ./entrypoint.sh /usr/src/app/entrypoint.sh
 RUN sed -i 's/\r$//g' /usr/src/app/entrypoint.sh
 RUN chmod +x /usr/src/app/entrypoint.sh
-
-COPY . /app
 
 # RUN mkdir /app/staticfiles
 

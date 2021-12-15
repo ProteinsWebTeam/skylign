@@ -1,0 +1,7 @@
+Warning (mostly harmless): No library found for -lhmmer
+Warning (mostly harmless): No library found for -leasel
+Warning (mostly harmless): No library found for -lsvml
+Warning (mostly harmless): No library found for -lirc
+Generating a Unix-style Makefile
+Writing Makefile for Easel::Validation
+Writing MYMETA.yml and MYMETA.json

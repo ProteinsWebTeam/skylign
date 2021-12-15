@@ -10,7 +10,7 @@ urlpatterns = [
     path("", views.index, name="index"),
     path(
         "3dpatch/", 
-        TemplateView.as_view(template_name="3DPatch/index.html"), 
+        TemplateView.as_view(template_name="logo/3dpatch.html"), 
         name="3DPatch"
     ),
     path(

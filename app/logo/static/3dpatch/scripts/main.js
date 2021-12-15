@@ -419,7 +419,7 @@ function alignInputToHMMCallback(request, hmmBlob) {
 }
 
 function skylignURLRequest(file) {
-    var url = "https://skylign.org/";
+    var url = "/";
     var data = new FormData();
     data.append("file", file);
     data.append("processing", "hmm");
@@ -433,7 +433,7 @@ function skylignURLRequest(file) {
 
 function skylignURLCallback(request) {
     if ((request.readyState === XMLHttpRequest.DONE) && (request.status === 200)) {
-        var responseURL = JSON.parse(request.response)["url"].replace("http://", "https://");
+        var responseURL = JSON.parse(request.response)["url"].replace("https://www.skylign.org/", "/").replace("http://www.skylign.org/", "/");
         printToInfoBoxDiv("Profile HMM information content calculation finished, results: ", responseURL);
         skylignLogoRequest(responseURL);
     }

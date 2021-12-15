@@ -16,7 +16,7 @@ We use some intermediary functions defined in `perl_functions/perl_functions.pm`
 
 We opted to use Postgres as SQL database in Docker for ease of setup. There are two docker-compose files: one implements a simple Django local server, whereas the other (`docker-compose-prod.yml`) simulates a complete backend.
 
-To run locally with Docker enter with the terminal in the repository folder and follow these instruction
+To run locally with Docker enter with the terminal in the repository folder and run the following commands
 
 ```bash
 # take down any previous instances, including their volumes
