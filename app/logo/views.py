@@ -90,7 +90,7 @@ def index(request):
 
                 else:
                     content = {
-                        "url": "http://skylign.org/logo/" + str(job),
+                        "url": "https://skylign.org/logo/" + str(job),
                         "uuid": str(job),
                         "message": "Logo generated successfully",
                     }
