@@ -14,6 +14,11 @@ urlpatterns = [
         name="3DPatch"
     ),
     path(
+        "3DPatch/", 
+        TemplateView.as_view(template_name="logo/3dpatch.html"), 
+        name="3DPatch"
+    ),
+    path(
         "help/", 
         TemplateView.as_view(template_name="logo/help/index.html"), 
         name="help"
